@@ -3,7 +3,7 @@ title: "Apps"
 description: "All LochNAS docker apps"
 
 cascade:
-  showEdit: false
+  showEdit: true
   showAuthor: false
   showDate: false
   showLikes: false
