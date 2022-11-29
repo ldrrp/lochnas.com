@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>phpmyadmin on LochNAS</title>
-    <link>https://lochnas.com/tags/phpmyadmin/</link>
-    <description>Recent content in phpmyadmin on LochNAS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lochnas.com/tags/phpmyadmin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PHPmyAdmin</title>
-      <link>https://lochnas.com/apps/phpmyadmin/</link>
-      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://lochnas.com/apps/phpmyadmin/</guid>
-      <description>This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phpmyadmin on LochNAS</title><link>https://lochnas.com/tags/phpmyadmin/</link><description>Recent content in phpmyadmin on LochNAS</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lochnas.com/tags/phpmyadmin/index.xml" rel="self" type="application/rss+xml"/><item><title>PHPmyAdmin</title><link>https://lochnas.com/apps/phpmyadmin/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate><guid>https://lochnas.com/apps/phpmyadmin/</guid><description>This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 Original maintainer phpmyadmin/phpmyadmin
-How to enable How to enable # Edit your .</description>
-    </item>
-    
-  </channel>
-</rss>
+How to enable> How to enable # Edit your .</description></item></channel></rss>
