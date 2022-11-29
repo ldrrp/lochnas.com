@@ -1,8 +1,9 @@
 ---
-title: "Ark Server"
+title: "TEMPLATE Container"
 date: 2022-11-29
-description: ""
-tags: ["apps", "docs", "ark", "server"]
+description: "THIS IS A TEMPLATE"
+tags: ["apps", "docs", "template"]
+draft: true
 ---
 
 ## Details
