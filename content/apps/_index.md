@@ -11,9 +11,9 @@ cascade:
 ---
 
 {{< lead >}}
-Simple, yet powerful. Learn how to use Blowfish and its features.
+All the app docker containers that are currently configured for LochNAS.
 {{< /lead >}}
 
-This section contains everything you need to know about Blowfish. 
+[Request a custom container](https://github.com/SiloCityLabs/lochnas/issues/new?assignees=&labels=App+Request&template=app-request-template.md&title=)
 
 ---
