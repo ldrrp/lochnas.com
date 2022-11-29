@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lochnas.com/sitemap.xml

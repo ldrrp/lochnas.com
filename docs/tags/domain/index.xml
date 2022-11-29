@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>domain on LochNAS</title>
+    <link>https://lochnas.com/tags/domain/</link>
+    <description>Recent content in domain on LochNAS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lochnas.com/tags/domain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DDNS setup</title>
+      <link>https://lochnas.com/docs/ddns/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lochnas.com/docs/ddns/</guid>
+      <description>You need your domain name to point to your IP address. This is done by visiting an &amp;ldquo;Update URL&amp;rdquo; (sometimes &amp;ldquo;Dynamic URL&amp;rdquo;). Go to your domain provider&amp;rsquo;s website and find the URL for your domain.</description>
+    </item>
+    
+  </channel>
+</rss>

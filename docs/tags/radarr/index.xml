@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radarr on LochNAS</title>
+    <link>https://lochnas.com/tags/radarr/</link>
+    <description>Recent content in radarr on LochNAS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lochnas.com/tags/radarr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Radarr</title>
+      <link>https://lochnas.com/apps/radarr/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lochnas.com/apps/radarr/</guid>
+      <description>This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo. This assumes you are using plex and transmission paths.</description>
+    </item>
+    
+  </channel>
+</rss>

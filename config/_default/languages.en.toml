@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "LochNAS"
+logo = "img/blowfish_logo_transparent.png"
+description = "Docker configuration for all-in-one nas setup"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "January 2 2006"
+
+[author]
+  name = "LochNAS"
+  image = "img/blowfish_logo.png"
+  headline = "Docker configuration for all-in-one nas setup "
+  bio = "Docker configuration for all-in-one nas setup "
+  links = [
+    { github = "https://github.com/SiloCityLabs/lochnas" },
+    { telegram = "https://t.me/+Ll8Sx8bn_qJhMjUx" },
+  ]
