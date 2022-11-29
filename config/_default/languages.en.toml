@@ -20,4 +20,7 @@ dateFormat = "January 2 2006"
   links = [
     { github = "https://github.com/SiloCityLabs/lochnas" },
     { telegram = "https://t.me/+Ll8Sx8bn_qJhMjUx" },
+    { reddit = "https://www.reddit.com/r/LochNAS" },
+    { patreon = "https://patreon.com/silocitylabs" },
+    { paypal = "https://paypal.me/ldrrp" },
   ]
