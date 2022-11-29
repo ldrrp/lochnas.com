@@ -1,0 +1,42 @@
+name: github pages
+
+on:
+  push:
+    paths:
+    - '*'        # Run workflow for all file paths
+    - 'archetypes/**'
+    - 'assets/**'
+    - 'config/**'
+    - 'content/**'
+    - 'layouts/**'
+    - 'themes/**'
+    - '!/docs/*' # Don't run workflow when files are only in the /docs directory
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          publish_branch: main
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./docs
