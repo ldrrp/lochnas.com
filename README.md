@@ -1,15 +1,15 @@
+Website repo for project [LochNAS](https://github.com/SiloCityLabs/lochnas)
 
+### Requirements
 
-Test:
+ - hugo
+
+### How to test and develop
 
 ```
 hugo server
 ```
 
-Deploy:
+### Ready to commit
 
-```
-hugo
-git add .
-git commit -m "build site"
-```
+Create a PR and push your changes. Do not commit changes to `/docs`
