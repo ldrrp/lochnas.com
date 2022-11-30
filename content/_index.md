@@ -12,7 +12,7 @@ This is a docker NAS setup used to quickly get going with a private NAS and clou
 
 ## License
 
-This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the GPLv3 License - see the [LICENSE](https://github.com/SiloCityLabs/lochnas/blob/v3/LICENSE) file for details
 
 ## Acknowledgments
 
