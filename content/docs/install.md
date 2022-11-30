@@ -72,4 +72,6 @@ chmod -R 770 /lochnas/home
 
 ### Apps
 
-You can view our list of [apps](/apps/) to get started. We recommend activating [nginx](/apps/nginx/) first.
+Each app has its own .env to enable in `/lochnas/docker-templates/{appname}/.env`. See [app docs](/apps/) for more information to get started. We recommend activating [nginx](/apps/nginx/) first.
+
+Hint, to see dot files in a folder you need to use `ls -a` command.

@@ -1,9 +1,11 @@
 ---
 title: "Ark Server"
 date: 2022-11-29
-description: ""
+description: "Server for an action-adventure dinosaur survival game set in an open world environment"
 tags: ["apps", "docs", "ark", "server"]
 ---
+
+## Details
 
 ## Details
 
@@ -13,7 +15,7 @@ Original container [turzam/ark](https://hub.docker.com/r/turzam/ark)
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `ARK_ENABLED=true`. 
+Edit your `/lochnas/docker-templates/ark/.env` file and enable this container with `ARK_ENABLED=true`. 
 
 ## Additional Configuration
 

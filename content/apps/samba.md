@@ -1,16 +1,18 @@
 ---
 title: "Samba Windows File Share"
 date: 2022-11-29
-description: ""
+description: "The Samba project provides file sharing and print services for computers on a network"
 tags: ["apps", "docs", "samba", "file share"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `SAMBA_ENABLED=true`
+Edit your `/lochnas/docker-templates/samba/.env` file and enable this container with `SAMBA_ENABLED=true`
 
 Create a usermap for windows file share to login, This is the linux username and linux user id on your host machine. You can get your user id with the `id -u username` command.
 
@@ -18,7 +20,7 @@ Create a usermap for windows file share to login, This is the linux username and
 SAMBA_USERMAP=username:1001:password,username:1002:password
 ```
 
-### Additional Configuration
+## Additional Configuration
 
 On first run it will create a default `smb.conf` from the templates directory. Afterwards you can edit `docker-data/samba/smb.conf` and change the paths, you can add as many shares as you would like.
 

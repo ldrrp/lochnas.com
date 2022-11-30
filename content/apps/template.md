@@ -10,14 +10,14 @@ draft: true
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 
-Original container [turzam/ark](https://hub.docker.com/r/turzam/ark)
+Original container [imagename](https://hub.docker.com/r/)
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `ARK_ENABLED=true`. 
+Edit your `/lochnas/docker-templates/appname/.env` file and enable this container with `APPNAME_ENABLED=true`. 
 
 ## Additional Configuration
 
 See additional config in `.env`
 
-[Additional variables available here](https://hub.docker.com/r/turzam/ark)
+[Additional variables available here](https://hub.docker.com/)

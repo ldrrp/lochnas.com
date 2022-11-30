@@ -1,19 +1,21 @@
 ---
 title: "Prowlarr"
 date: 2022-11-29
-description: ""
+description: "An indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps"
 tags: ["apps", "docs", "prowlarr"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo. This assumes you are using plex and transmission paths.
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `PROWLARR_ENABLED=true` and other variables. You can access it via https://prowlarr.yourdomain.com
+Edit your `/lochnas/docker-templates/prowlarr/.env` file and enable this container with `PROWLARR_ENABLED=true` and other variables. You can access it via https://prowlarr.yourdomain.com
 
 To use web access you must have nginx auth password set
 
-#### Enable Download clients
+## Enable Download clients
 
 Settings -> Download Clients -> Add + -> Transmission
 
@@ -28,7 +30,7 @@ Settings -> Download Clients -> Add + -> Transmission
 
 Click test, then Save
 
-#### Enable Indexers
+## Enable Indexers
 
 Indexers -> Add New Indexer
 

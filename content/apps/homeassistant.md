@@ -1,9 +1,11 @@
 ---
 title: "Home Assistant"
 date: 2022-11-29
-description: ""
+description: "On-Premises home automation platform"
 tags: ["apps", "docs", "hass", "home assistant"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 
@@ -11,7 +13,7 @@ Original maintainer [homeassistant/home-assistant](https://hub.docker.com/r/home
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `HOMEASSISTANT_ENABLED=true`. Run `./start.sh` and navigate in a browser to configure nextcloud at `hass.domain.com`. This should be pretty straight forward.
+Edit your `/lochnas/docker-templates/homeassistant/.env` file and enable this container with `HOMEASSISTANT_ENABLED=true`. Run `./start.sh` and navigate in a browser to configure nextcloud at `hass.domain.com`. This should be pretty straight forward.
 
 ## Adding dongle to container
 

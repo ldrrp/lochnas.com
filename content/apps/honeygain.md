@@ -1,9 +1,11 @@
 ---
 title: "Honeygain"
 date: 2022-11-29
-description: ""
+description: "The first-ever app that allows its users to make money online by sharing their Internet connection"
 tags: ["apps", "docs", "honeygain"]
 ---
+
+## Details
 
 ## Details
 
@@ -13,5 +15,5 @@ Original maintainer [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecr
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `MINECRAFT_ENABLED=true`
+Edit your `/lochnas/docker-templates/honeygain/.env` file and enable this container with `MINECRAFT_ENABLED=true`
 

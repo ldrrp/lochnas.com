@@ -1,9 +1,11 @@
 ---
 title: "Nextcloud"
 date: 2022-11-29
-description: ""
+description: "On-premises personal cloud interface"
 tags: ["apps", "docs", "nextcloud"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 
@@ -11,7 +13,7 @@ Original maintainer [Nextcloud](https://hub.docker.com/_/nextcloud), [mariadb](h
 
 ## How to enable
 
-Edit your `.env` file and enable this container then run `./start.sh`
+Edit your `/lochnas/docker-templates/nextcloud/.env` file and enable this container then run `./start.sh`
 
 ```
 NEXTCLOUD_ENABLED=false
@@ -20,7 +22,7 @@ MYSQL_ROOT_PASSWORD=password
 MYSQL_PASSWORD=password
 ```
 
-#### Setup nextcloud
+### Setup nextcloud
 
 Navigate in a browser to configure nextcloud at `cloud.domain.com`
 

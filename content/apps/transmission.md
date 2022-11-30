@@ -1,9 +1,11 @@
 ---
 title: "Transmission"
 date: 2022-11-29
-description: ""
+description: "A BitTorrent client which features a variety of user interfaces on top of a cross-platform back-end."
 tags: ["apps", "docs", "transmission"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 
@@ -11,7 +13,7 @@ Original maintainer [haugene/transmission-openvpn](https://hub.docker.com/r/haug
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `TRANSMISSION_ENABLED=true` and other variables. You can access it via https://transmission.yourdomain.com/web/
+Edit your `/lochnas/docker-templates/transmission/.env` file and enable this container with `TRANSMISSION_ENABLED=true` and other variables. You can access it via https://transmission.yourdomain.com/web/
 
 The other variables are required with this vpn only transmission container.
 

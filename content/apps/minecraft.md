@@ -1,9 +1,11 @@
 ---
 title: "Minecraft"
 date: 2022-11-29
-description: ""
+description: "Server for an open world sandbox game in Java"
 tags: ["apps", "docs", "minecraft"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
 
@@ -11,7 +13,7 @@ Original maintainer [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecr
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `MINECRAFT_ENABLED=true`
+Edit your `/lochnas/docker-templates/minecraft/.env` file and enable this container with `MINECRAFT_ENABLED=true`
 
 ## Joining the game
 

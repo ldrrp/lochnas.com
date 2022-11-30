@@ -1,25 +1,27 @@
 ---
 title: "Radarr"
 date: 2022-11-29
-description: ""
+description: "Sonarr reworked for automatically downloading movies via Usenet and BitTorren"
 tags: ["apps", "docs", "radarr", "movies"]
 ---
+
+## Details
 
 This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo. This assumes you are using plex and transmission paths.
 
 ## How to enable
 
-Edit your `.env` file and enable this container with `RADARR_ENABLED=true` and other variables. You can access it via https://radarr.yourdomain.com
+Edit your `/lochnas/docker-templates/radarr/.env` file and enable this container with `RADARR_ENABLED=true` and other variables. You can access it via https://radarr.yourdomain.com
 
 To use web access you must have nginx auth password set
 
-### Additional Configuration
+## Additional Configuration
 
-#### Enable root folder
+### Enable root folder
 
 Settings -> Media Management -> Root Folders -> Add Root Folder -> /lochnas/home/path/to/Movies
 
-#### Enable Download clients
+### Enable Download clients
 
 Settings -> Download Clients -> Add + -> Transmission
 
@@ -34,7 +36,7 @@ Settings -> Download Clients -> Add + -> Transmission
 
 Click test, then Save
 
-#### Enable Indexers
+### Enable Indexers
 
 Settings -> Indexers -> Add +
 
