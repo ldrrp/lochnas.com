@@ -13,6 +13,12 @@ Original maintainer [haugene/transmission-openvpn](https://hub.docker.com/r/haug
 
 ## How to enable
 
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add transmission.{domain.com}
+```
+
 Edit your `/lochnas/docker-templates/transmission/.env` file and enable this container with `TRANSMISSION_ENABLED=true` and other variables. You can access it via https://transmission.yourdomain.com/web/
 
 The other variables are required with this vpn only transmission container.

@@ -13,6 +13,12 @@ Original maintainer [phpmyadmin/phpmyadmin](https://hub.docker.com/r/phpmyadmin/
 
 ## How to enable
 
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add phpmyadmin.{domain.com}
+```
+
 Edit your `/lochnas/docker-templates/phpmyadmin/.env` file and enable this container with `PHPMYADMIN_ENABLED=true`
 
 ## How to use

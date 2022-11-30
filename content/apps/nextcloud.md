@@ -13,7 +13,13 @@ Original maintainer [Nextcloud](https://hub.docker.com/_/nextcloud), [mariadb](h
 
 ## How to enable
 
-Edit your `/lochnas/docker-templates/nextcloud/.env` file and enable this container then run `./start.sh`
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add cloud.{domain.com}
+```
+
+Edit your `/lochnas/docker-templates/nextcloud/.env` file and enable this container then run `service lochnas restart`
 
 ```
 NEXTCLOUD_ENABLED=false

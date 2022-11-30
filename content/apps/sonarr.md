@@ -11,6 +11,12 @@ This is a template to add this container to your nas setup full functional with 
 
 ## How to enable
 
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add sonarr.{domain.com}
+```
+
 Edit your `/lochnas/docker-templates/sonarr/.env` file and enable this container with `SONARR_ENABLED=true` and other variables. You can access it via https://sonarr.yourdomain.com
 
 To use web access you must have nginx auth password set

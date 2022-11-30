@@ -13,6 +13,12 @@ Original container [collabora/code](https://hub.docker.com/r/collabora/code)
 
 ## How to enable
 
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add office.{domain.com}
+```
+
 Edit your `/lochnas/docker-templates/collabora/.env` file and enable this container with `COLLABORA_ENABLED=true`. 
 
 ## Additional Configuration

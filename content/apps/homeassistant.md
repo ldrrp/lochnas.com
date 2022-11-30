@@ -13,7 +13,13 @@ Original maintainer [homeassistant/home-assistant](https://hub.docker.com/r/home
 
 ## How to enable
 
-Edit your `/lochnas/docker-templates/homeassistant/.env` file and enable this container with `HOMEASSISTANT_ENABLED=true`. Run `./start.sh` and navigate in a browser to configure nextcloud at `hass.domain.com`. This should be pretty straight forward.
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add hass.{domain.com}
+```
+
+Edit your `/lochnas/docker-templates/homeassistant/.env` file and enable this container with `HOMEASSISTANT_ENABLED=true`. Run `service lochnas restart` and navigate in a browser to configure nextcloud at `hass.domain.com`. This should be pretty straight forward.
 
 ## Adding dongle to container
 

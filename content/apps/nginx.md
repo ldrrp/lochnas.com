@@ -20,12 +20,26 @@ NGINX_PASSWORD={password}
 NGINX_USERNAME=admin
 ```
 
-## Create SSL Certificates
+## SSL Certificates
 
-## Add a domain
+## Add a domain ssl
 
-You need to use the domain argument to create SSL certificates for your nginx setup. This is highly recommended and uses Let's Encrypt for a valid certificate for free.
+You need to use the domain argument to create SSL certificates for your nginx setup. This is highly recommended and uses Let's Encrypt for a valid certificate for free. Create your first root domain here for nginx to use as the default. Each app may need its own domain specified in its docs.
 
 ```
-/lochnas/server.bin -domain add cloud.domain.com
+/lochnas/server.bin -domain add domain.com
+```
+
+## Delete a domain ssl
+
+```
+/lochnas/server.bin -domain remove
+```
+
+## Renew domain ssl's
+
+This happens automatically but you can manually trigger it with the following command.
+
+```
+/lochnas/server.bin -domain renew
 ```

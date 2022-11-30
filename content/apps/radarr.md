@@ -11,6 +11,12 @@ This is a template to add this container to your nas setup full functional with 
 
 ## How to enable
 
+Add the domain ssl replacing domain.com with the root domain you entered in your config.yml
+
+```
+/lochnas/server.bin -domain add radarr.{domain.com}
+```
+
 Edit your `/lochnas/docker-templates/radarr/.env` file and enable this container with `RADARR_ENABLED=true` and other variables. You can access it via https://radarr.yourdomain.com
 
 To use web access you must have nginx auth password set
