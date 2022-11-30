@@ -1,6 +1,6 @@
 ---
 title: "LochNAS Setup"
-date: 2022-11-20
+date: 2022-11-30
 description: "How to setup LochNAS for Ubuntu or Debian"
 tags: ["install", "setup", "linux", "ubuntu", "debian"]
 ---
