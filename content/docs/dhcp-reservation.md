@@ -1,8 +1,8 @@
 ---
-title: "Port forwarding"
+title: "DHCP Reservation"
 date: 2022-11-29
-externalUrl: "https://portforward.com/router.htm"
-summary: "External guide on port forwarding for varius routers."
+externalUrl: "https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your-router"
+summary: "Guide on dhcp reservation instead of static config on server."
 showReadingTime: false
 showLikes: false
 showViews: false
