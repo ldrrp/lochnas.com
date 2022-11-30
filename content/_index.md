@@ -8,7 +8,23 @@ Install LochNAS
 {{< /button >}}
 
 
-This is a docker NAS setup used to quickly get going with a private NAS and cloud setup. The purpose to keep it all dockerized is for super quick migrations in the long term future and to allow better long term updates even with an OS that is not updated as often. All containers are optional and most can easily be enabled with a boolean setting excluding nginx which is required. 
+A server daemon that manages a collection of catered docker containers and allows users to get started with very little effort.
+
+## Features include
+- Notifications
+- nginx management
+- Container volumes premapped
+- Smart ddns updates
+- SSL renewal cron built in
+- Small footprint daemon written in go
+- auto container updates
+
+## In the works
+- Plugin USB backups
+- More notification providers
+- Raid monitor
+- Disk health monitoring
+- Dashboard home page
 
 ## License
 
