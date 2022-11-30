@@ -59,10 +59,10 @@ This will work with any existing raid for a migration as well. Locate your RAID 
 
 Set the partition to mount on boot. Use `nano` or `vi` to add the following line to `/etc/fstab`
 
+```bash
+nano /etc/fstab
 ```
-nano
-```
-```
+```bash
 /dev/md0 /lochnas/home ext4 defaults,nofail,discard 0 0
 ```
 

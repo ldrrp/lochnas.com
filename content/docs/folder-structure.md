@@ -5,12 +5,15 @@ description: "Folder structure of LochNAS server."
 tags: ["folders", "paths"]
 ---
 
+See folder tree in table of contents
+
 ## **/lochnas/**
 
 Path to the root of the lochnas folder. This should live in the root folder of the server. We no longer support dynamic paths so that the containers can refference the same root paths internally and reduce user confusion.
 
 Files:
- - config.yml - This contains server configuration.
+ - `config.yml` - This contains server configuration.
+ - `server.bin` - Lochnas server binary for Linux
 
 
 ### **home/**
@@ -61,18 +64,7 @@ Optional. This is a bash script that is run before the app is started but after 
 
 #### **readme.md**
 
-Requred. This is a markdown file that describes the app. It is used to generate the app's homepage.
-
-This should have the following components to it:
- - **Title** - The title of the app.
- - **Description** - A short description of the app.
- - **Source** - A link to the original source of the container if one exists.
- - **Usage** - A detailed description of how to use the app. This should also include ports and subdomain if one is used.
- - **Configuration** - A detailed description of how to configure the app.
-
-### **docs/**
-
-This is miscellaneous documentation for lochnas. App specific documentation should be in the app's folder.
+Requred. This is a markdown file that links to the lochnas.com app page.
 
 ### **server/**
 
