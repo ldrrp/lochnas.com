@@ -11,7 +11,14 @@ This container allows you to server all your containers trhough port 443 via ssl
 
 ## How to enable
 
-Edit your `/lochnas/docker-templates/nginx/.env` file and enable this container with `NGINX_ENABLED=true` and other variables. It is recommended you set a password for auth enabled applications to use.
+Edit your `/lochnas/docker-templates/nginx/.env` file and enable this container with `NGINX_ENABLED=true` and other variables. 
+
+It is recommended you set a password for auth enabled applications to use by uncommenting the following two options in the nginx `.env` file.
+
+```
+NGINX_PASSWORD={password}
+NGINX_USERNAME=admin
+```
 
 ## Create SSL Certificates
 
