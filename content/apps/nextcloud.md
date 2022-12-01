@@ -52,10 +52,10 @@ Go to External storage in settings and create a storage under /raid for your use
 
 You will need to make some tweaks to improve this nextcloud docker setup. Type the following commands:
 
-```
-docker exec -it nextcloud ./occ db:add-missing-indices
-docker exec -it nextcloud ./occ db:convert-filecache-bigint
-docker exec -it nextcloud ./occ config:app:set text workspace_available --value=0
+```bash
+docker exec -u www-data -it nextcloud ./occ db:add-missing-indices
+docker exec -u www-data -it nextcloud ./occ db:convert-filecache-bigint
+docker exec -u www-data -it nextcloud ./occ config:app:set text workspace_available --value=0
 ```
 
 Make one last addition to the config file to fix a login redirect issue.
