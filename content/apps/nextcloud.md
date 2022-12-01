@@ -7,7 +7,7 @@ tags: ["apps", "docs", "nextcloud"]
 
 ## Details
 
-This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo.
+This is a template to add this container to your nas setup full functional with matching permissions and settings that of lochnas repo. If you havent already done so you must enable [nginx](/apps/nginx/) container first.
 
 Original maintainer [Nextcloud](https://hub.docker.com/_/nextcloud), [mariadb](https://hub.docker.com/_/mariadb)
 
