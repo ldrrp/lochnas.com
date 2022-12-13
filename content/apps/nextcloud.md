@@ -66,3 +66,23 @@ Make one last addition to the config file to fix a login redirect issue.
   'overwritehost' => 'cloud.yourdomain.com',
   'overwriteprotocol' => 'https',
 ```
+
+### Stuck in Maintenance mode
+
+Sometimes Nextcloud finds itself stuck unable to update due to an issue. You can run the command to determine why its stuck.
+
+```bash
+docker exec -it -u 33 nextcloud php occ upgrade
+```
+
+If you see an error like "Cannot skip major versions". You will need to download the previous version and upgrade incrimentally. The following example goes from 23 -> 24. You will need to repeat this for multiple major versions.
+
+```bash
+cd /lochnas/docker-data/nextcloud
+cat html/config/config.php | grep version
+mv html nextcloud
+wget https://download.nextcloud.com/server/releases/nextcloud-24.0.0.zip
+unzip -o nextcloud-24.0.0.zip
+mv nextcloud html
+docker exec -it -u 33 nextcloud php occ upgrade
+```
