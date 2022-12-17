@@ -45,7 +45,7 @@ update-initramfs -u
 
 ```
 
-After creating my RAID device you can make a partition on and use it
+Now you can make a partition on and use it
 
 ```
 # make partition
