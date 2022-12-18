@@ -39,9 +39,9 @@ Copy `.env` to `.example.env`. Remove any passwords, API keys, etc so that you c
 
 ## Nginx
 
-Use Nginx to access the image with a subdomain, like `mycoolapp.domain.com`. This part of the guide assumes that you already set up a [domain and DDNS](ddns.md)
+Use Nginx to access the image with a subdomain, like `mycoolapp.domain.com`. This part of the guide assumes that you already set up a [domain and DDNS](../ddns/)
 
-First ensure that Nginx is enabled by editing `/lochnas/docker-templates/nginx/.env` and setting `NGINX_ENABLED=true`. Check the [Nginx docs](../apps/nginx.md)
+First ensure that Nginx is enabled by editing `/lochnas/docker-templates/nginx/.env` and setting `NGINX_ENABLED=true`. Check the [Nginx docs](../../apps/nginx/)
 
 Create a file `nginx.conf` in `/lochnas/docker-templates/mycoolapp`. You must write you configuration file from here. You may use ${GLOBAL_DOMAIN} to reference the domain set in `/lochnas/config.yml`
 
