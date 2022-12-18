@@ -51,5 +51,8 @@ server {
     listen 443 ssl http2;
     server_name mycoolapp.${GLOBAL_DOMAIN};
 
-......
 ```
+
+Finally run  `/lochnas/server.bin -domain add mycoolapp.domain.com`
+
+
