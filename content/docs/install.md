@@ -28,18 +28,26 @@ Edit your `config.yml` then restart `service lochnas restart`. If you are runnin
 
 LochNAS uses git to update. You can configure your update schedule via the `config.yml` file.
 
-### Commands
+### Service Commands
+
+```
+service lochnas start - Start service
+service lochnas stop - Stop service
+service lochnas restart - Restart service
+```
+
+### Commands 
 
 ```
     server.bin -daemon
-        start - Start in background
-        stop - Stop background
-        restart - restart in background
+        start - Start in background - Used by systemd to start (dont use)
+        stop - Stop background - Used by systemd to stop (dont use)
+        restart - Restart in background - Used by systemd to restart (dont use)
         install - Install as service
         uninstall - Uninstall service
     server.bin -ddns
         ip - Grab current wanip from router
-        refresh - update ddns if ip changed
+        refresh - Update ddns if ip changed
         force - Force update ddns ip
     server.bin -domain
         renew - Renew all domains
