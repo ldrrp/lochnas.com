@@ -1,7 +1,7 @@
 ---
 title: "Radarr"
 date: 2022-11-29
-description: "Sonarr reworked for automatically downloading movies via Usenet and BitTorren"
+description: "Sonarr reworked for automatically downloading movies via Usenet and BitTorrent"
 tags: ["apps", "docs", "radarr", "movies"]
 ---
 
