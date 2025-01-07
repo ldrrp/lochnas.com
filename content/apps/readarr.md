@@ -1,6 +1,6 @@
 ---
 title: "Readarr"
-date: 2022-11-29
+date: 2025-01-07
 description: "Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent"
 tags: ["apps", "docs", "readarr", "ebooks", "audiobooks"]
 ---
